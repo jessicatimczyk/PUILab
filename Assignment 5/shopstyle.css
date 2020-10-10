@@ -1,5 +1,5 @@
 nav {
-    position: fixed;
+    position: absolute;
     right: 10px;
     top: 40px;
     text-align: right;
@@ -33,7 +33,6 @@ h1 {
     background-image: url(fallon-michael-H6OBZaVveCA-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     height: 15%;
 }
 
@@ -44,3 +43,35 @@ header a {
     padding-right: 60px;
 }
 
+
+/********** SHOP PAGE **********/
+.grid-container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 600px;
+    width: auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    padding: 20px;
+    
+}
+
+.grid-item {
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+.grid-item p {
+    color: white;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
