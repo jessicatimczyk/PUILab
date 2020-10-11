@@ -53,6 +53,10 @@ h1 {
 header a {
     color: white;
     text-decoration: none;
-    padding-right: 60px;
+    margin-right: 60px;
 }
 
+.current-page {
+    border-bottom: solid white;
+    
+}
